@@ -438,4 +438,3 @@ rviz2 -d ~/src/PX4-Autopilot/mid360.rviz
 ---
 
 *总结生成时间：2026-06-19*
-*对话参与方：用户（px4）与 AI 助手（Kimi）*
