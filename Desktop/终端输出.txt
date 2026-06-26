@@ -1,0 +1,48 @@
+px4@px4-vpc:~/src/PX4-Autopilot$ PX4_SIM_WORLD=asphalt_runway PX4_SIM_Z=0.4 make px4_sitl gazebo-classic_roarm_quad
+[0/4] Performing build step for 'sitl_gazebo-classic'
+ninja: no work to do.
+[3/4] cd /home/px4/src/PX4-Autopilot/b...c/PX4-Autopilot/build/px4_sitl_default
+SITL ARGS
+sitl_bin: /home/px4/src/PX4-Autopilot/build/px4_sitl_default/bin/px4
+debugger: none
+model: roarm_quad
+world: none
+src_path: /home/px4/src/PX4-Autopilot
+build_path: /home/px4/src/PX4-Autopilot/build/px4_sitl_default
+GAZEBO_PLUGIN_PATH :/home/px4/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic
+GAZEBO_MODEL_PATH :/home/px4/src/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models
+LD_LIBRARY_PATH /home/px4/src/mavros_ws/install/mavros_extras/lib:/home/px4/src/mavros_ws/install/mavros/lib:/home/px4/src/mavros_ws/install/mavros_msgs/lib:/home/px4/src/mavros_ws/install/libmavconn/lib:/home/px4/src/install/interface/lib:/home/px4/install/livox_interfaces/lib:/home/px4/install/interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/px4/src/PX4-Autopilot/build/px4_sitl_default/build_gazebo-classic
+empty world, setting empty.world as default
+Using: /home/px4/src/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/roarm_quad/roarm_quad.sdf
+SITL COMMAND: "/home/px4/src/PX4-Autopilot/build/px4_sitl_default/bin/px4" "/home/px4/src/PX4-Autopilot/build/px4_sitl_default"/etc
+
+______  __   __    ___ 
+| ___ \ \ \ / /   /   |
+| |_/ /  \ V /   / /| |
+|  __/   /   \  / /_| |
+| |     / /^\ \ \___  |
+\_|     \/   \/     |_/
+
+px4 starting.
+
+INFO  [px4] startup script: /bin/sh etc/init.d-posix/rcS 0
+INFO  [init] found model autostart file as SYS_AUTOSTART=10016
+INFO  [param] selected parameter default file parameters.bson
+INFO  [param] importing from 'parameters.bson'
+INFO  [parameters] BSON document size 274 bytes, decoded 274 bytes (INT32:11, FLOAT:3)
+INFO  [param] selected parameter backup file parameters_backup.bson
+INFO  [dataman] data manager file './dataman' size is 7872608 bytes
+INFO  [init] PX4_SIM_HOSTNAME: localhost
+INFO  [simulator_mavlink] Waiting for simulator to accept connection on TCP port 4560
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[Msg] Waiting for master.
+[Msg] Connected to gazebo master @ http://127.0.0.1:11345
+[Msg] Publicized address: 192.168.208.132
+[Msg] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+context mismatch in svga_surface_destroy
+context mismatch in svga_surface_destroy
+

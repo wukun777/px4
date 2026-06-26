@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<gazebo_config>
+  <model_database>uri</model_database>
+</gazebo_config>
