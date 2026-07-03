@@ -153,7 +153,7 @@
         <limit><lower>-3.1416</lower><upper>3.1416</upper><effort>10</effort><velocity>5</velocity></limit>
         <!-- 💡 增加关节阻尼与摩擦，模拟真实减速电机的物理阻力，阻碍自由晃动 -->
         <dynamics>
-          <damping>1</damping>
+          <damping>2</damping>
           <friction>10</friction>
         </dynamics>
       </axis>
@@ -198,7 +198,7 @@
         <limit><lower>-1.5708</lower><upper>1.5708</upper><effort>10</effort><velocity>5</velocity></limit>
         <!-- 💡 增加关节阻尼与摩擦 -->
         <dynamics>
-          <damping>2</damping>
+          <damping>4</damping>
           <friction>20</friction>
         </dynamics>
       </axis>
@@ -245,7 +245,7 @@
         <limit><lower>-1</lower><upper>3.1416</upper><effort>10</effort><velocity>5</velocity></limit>
         <!-- 💡 增加关节阻尼与摩擦 -->
         <dynamics>
-          <damping>1</damping>
+          <damping>2</damping>
           <friction>10</friction>
         </dynamics>
       </axis>
@@ -283,7 +283,7 @@
         <limit><lower>0</lower><upper>1.5</upper><effort>5</effort><velocity>5</velocity></limit>
         <!-- 💡 增加关节阻尼与摩擦 -->
         <dynamics>
-          <damping>1</damping>
+          <damping>2</damping>
           <friction>10</friction>
         </dynamics>
       </axis>

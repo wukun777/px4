@@ -1,6 +1,6 @@
 # PX4 SITL + Gazebo Classic 联合仿真与动力学控制完整总结 (roarm_quad)
 
-本文档是针对 **roarm_quad** 模型（550mm 轴距四旋翼无人机挂载微雪 RoArm-M2-S 机械臂）在 PX4 SITL + Gazebo Classic + QGroundControl (QGC) 联合仿真环境下的通信链路、传感器对齐、飞控动力学配置、ROS 2 姿态锁死控制器以及仿真环境避坑机制的完整技术总结。相同内容均以最新调试验证成功的参数为准，旨在为开发者提供清晰、完备且高度可操作的项目记录。
+本文档是针对 **roarm_quad** 模型（550mm 轴距四旋翼无人机挂载微雪 RoArm-M2-S 机械臂）在 PX4 SITL + Gazebo Classic + QGroundControl (QGC) 联合仿真环境下的通信链路、传感器对齐、飞控动力学配置、ROS 2 姿态锁死控制器以及仿真环境避坑机制的完整技术总结。相同内容均以最新调试验证成功的参数为准，旨在为开发者提供清晰、完备且高度可操作的项目记录。快捷启动：make px4_sitl gazebo-classic_roarm_quad
 
 ---
 

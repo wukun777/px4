@@ -4,20 +4,28 @@ Released under the Apache 2 License.
 http://gazebosim.org
 
 
-(1782380480 824245230) [Msg] Waiting for master.
-(1782380480 833871641) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
-(1782380480 833897344) [Msg] Publicized address: 192.168.208.132
-(1782380481 270522436) [Msg] Loading world file [/usr/share/gazebo-11/worlds/empty.world]
-(1782380481 678771784) Init world[default]
-(1782380493 582420104) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_motor_model.so: libgazebo_motor_model.so: cannot open shared object file: No such file or directory
-(1782380493 583619453) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_motor_model.so: libgazebo_motor_model.so: cannot open shared object file: No such file or directory
-(1782380493 585400983) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_motor_model.so: libgazebo_motor_model.so: cannot open shared object file: No such file or directory
-(1782380493 585612332) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_motor_model.so: libgazebo_motor_model.so: cannot open shared object file: No such file or directory
-(1782380493 586599423) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_mavlink_interface.so: libgazebo_mavlink_interface.so: cannot open shared object file: No such file or directory
-(1782380493 591995022) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_imu_plugin.so: libgazebo_imu_plugin.so: cannot open shared object file: No such file or directory
-(1782380506 362073992) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_motor_model.so: libgazebo_motor_model.so: cannot open shared object file: No such file or directory
-(1782380506 362433376) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_motor_model.so: libgazebo_motor_model.so: cannot open shared object file: No such file or directory
-(1782380506 362577294) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_motor_model.so: libgazebo_motor_model.so: cannot open shared object file: No such file or directory
-(1782380506 362694256) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_motor_model.so: libgazebo_motor_model.so: cannot open shared object file: No such file or directory
-(1782380506 362793127) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_mavlink_interface.so: libgazebo_mavlink_interface.so: cannot open shared object file: No such file or directory
-(1782380506 362882183) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_imu_plugin.so: libgazebo_imu_plugin.so: cannot open shared object file: No such file or directory
+(1783070728 660958433) [Wrn] [gazebo_ros_init.cpp:178] 
+#     # ####### ####### ###  #####  #######
+##    # #     #    #     #  #     # #
+# #   # #     #    #     #  #       #
+#  #  # #     #    #     #  #       #####
+#   # # #     #    #     #  #       #
+#    ## #     #    #     #  #     # #
+#     # #######    #    ###  #####  #######
+
+This version of Gazebo, now called Gazebo classic, reaches end-of-life
+in January 2025. Users are highly encouraged to migrate to the new Gazebo
+using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration?utm_source=gazebo_ros_pkgs&utm_medium=cli)
+
+
+(1783070728 968063691) [Msg] Waiting for master.
+(1783070728 975224668) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1783070728 975281330) [Msg] Publicized address: 192.168.208.132
+(1783070733 677541731) [Msg] Loading world file [/home/px4/src/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/empty.world]
+(1783070734 214032949) Init world[default]
+(1783070735 462929186) [Wrn] [gazebo_gps_plugin.cpp:77] [gazebo_gps_plugin]: roarm_quad::gps0 using gps topic "gps0"
+(1783070735 463162890) [Wrn] [gazebo_gps_plugin.cpp:202] [gazebo_gps_plugin] Using default update rate of 5hz 
+(1783070735 713468812) [Msg] Connecting to PX4 SITL using TCP
+(1783070735 713519386) [Msg] Lockstep is enabled
+(1783070735 720718489) [Msg] Speed factor set to: 1
+(1783070735 728663073) [Msg] Using MAVLink protocol v2.0
