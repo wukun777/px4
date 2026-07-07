@@ -198,7 +198,7 @@
         <limit><lower>-1.5708</lower><upper>1.5708</upper><effort>10</effort><velocity>5</velocity></limit>
         <!-- 💡 增加关节阻尼与摩擦 -->
         <dynamics>
-          <damping>4</damping>
+          <damping>0.68</damping>
           <friction>20</friction>
         </dynamics>
       </axis>

@@ -4,11 +4,10 @@ Released under the Apache 2 License.
 http://gazebosim.org
 
 
-(1783410684 29683076) [Msg] Waiting for master.
-(1783410684 35742527) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
-(1783410684 36257551) [Msg] Publicized address: 192.168.230.129
-(1783410684 37437476) Loaded .ini file from: "/home/px4/.gazebo/gui.ini"
-(1783410684 268116547) [Msg] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
-(1783410685 775169019) No spacenav daemon found. Spacenav functionality is disabled
-(1783410685 814996412) Loaded GUI plugin[libgazebo_user_camera_plugin.so]
-(1783410731 320231852) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call
+(1783412707 220862892) [Msg] Waiting for master.
+(1783412707 227069541) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1783412707 227562818) [Msg] Publicized address: 192.168.230.129
+(1783412707 228501969) Loaded .ini file from: "/home/px4/.gazebo/gui.ini"
+(1783412707 541166009) [Msg] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+(1783412709 431239714) No spacenav daemon found. Spacenav functionality is disabled
+(1783412709 451223376) Loaded GUI plugin[libgazebo_user_camera_plugin.so]
