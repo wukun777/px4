@@ -139,3 +139,5 @@ fi
 if [ -f ~/hunter/simulation/install/setup.bash ]; then
     source ~/hunter/simulation/install/setup.bash
 fi
+
+source ~/src/install/setup.bash

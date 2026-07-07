@@ -4,7 +4,7 @@ Released under the Apache 2 License.
 http://gazebosim.org
 
 
-(1783070728 660958433) [Wrn] [gazebo_ros_init.cpp:178] 
+(1783410679 135718788) [Wrn] [gazebo_ros_init.cpp:178] 
 #     # ####### ####### ###  #####  #######
 ##    # #     #    #     #  #     # #
 # #   # #     #    #     #  #       #
@@ -18,14 +18,14 @@ in January 2025. Users are highly encouraged to migrate to the new Gazebo
 using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration?utm_source=gazebo_ros_pkgs&utm_medium=cli)
 
 
-(1783070728 968063691) [Msg] Waiting for master.
-(1783070728 975224668) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
-(1783070728 975281330) [Msg] Publicized address: 192.168.208.132
-(1783070733 677541731) [Msg] Loading world file [/home/px4/src/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/empty.world]
-(1783070734 214032949) Init world[default]
-(1783070735 462929186) [Wrn] [gazebo_gps_plugin.cpp:77] [gazebo_gps_plugin]: roarm_quad::gps0 using gps topic "gps0"
-(1783070735 463162890) [Wrn] [gazebo_gps_plugin.cpp:202] [gazebo_gps_plugin] Using default update rate of 5hz 
-(1783070735 713468812) [Msg] Connecting to PX4 SITL using TCP
-(1783070735 713519386) [Msg] Lockstep is enabled
-(1783070735 720718489) [Msg] Speed factor set to: 1
-(1783070735 728663073) [Msg] Using MAVLink protocol v2.0
+(1783410679 187039090) [Msg] Waiting for master.
+(1783410679 198049418) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1783410679 198093132) [Msg] Publicized address: 192.168.230.129
+(1783410679 883021043) [Msg] Loading world file [/home/px4/src/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/empty.world]
+(1783410680 4903115) Init world[default]
+(1783410680 727637335) [Wrn] [gazebo_gps_plugin.cpp:77] [gazebo_gps_plugin]: roarm_quad::gps0 using gps topic "gps0"
+(1783410680 727940090) [Wrn] [gazebo_gps_plugin.cpp:202] [gazebo_gps_plugin] Using default update rate of 5hz 
+(1783410680 887838671) [Msg] Connecting to PX4 SITL using TCP
+(1783410680 887861946) [Msg] Lockstep is enabled
+(1783410680 887875168) [Msg] Speed factor set to: 1
+(1783410680 935628006) [Msg] Using MAVLink protocol v2.0
